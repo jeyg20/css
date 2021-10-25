@@ -1,0 +1,27 @@
+.main-nav{
+    margin-top: 10px;
+    padding-left: 0px;
+    list-style: none;
+    background-color: rgb(29, 126, 206);
+    border-radius: 5px;
+    height: auto;
+}
+.main-nav-item{
+    display: inline-block;
+}
+.main-nav-item a {
+    color: white;
+    font-size: larger;
+    margin: 5px;
+    text-decoration: none;
+    background-color: brown;
+}
+.main-nav-item a:hover {
+    color: lightblue;
+}
+.main-nav-item a:active {
+    color: red;
+}
+.main-nav-item a::after {
+    content: "   |  ";
+}
