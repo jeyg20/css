@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 6.25%;
+}
+li, a {
+    text-decoration: none;
+    font-size: 20rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: rgb(194, 202, 209);
+}
+.nav_links {
+    list-style-type: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.side_panel {
+    overflow:hidden;
+    width: min-content;
+    background-color: brown;
+    padding: 0px;
+}
+.box {
+    background-color: rgba(238, 130, 238, 0.6);
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.page_body {
+    background-color: rgb(92, 3, 3);
+}
+
+.footer{
+    height: 100px;
+    background-color: rgb(151, 151, 124);
+}
