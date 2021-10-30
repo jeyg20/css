@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 1vw;
+}
+.tittle > h3 {
+    max-width: 300px;
+    min-width: 50px;
+    background-color: rgb(211, 46, 17);
+    text-align: center;
+    padding: 20px 0; 
+    margin: 10% auto 0 auto;
+    border-radius: 15px;
+    border:  solid 1px black;
+    position: relative;
+    top: 40px;
+}
+.text-body > p {
+    max-width: 600px;
+    min-width: 100px;
+    background-color: rgb(189, 189, 189);
+    padding: 70px;
+    border-radius: 45px;
+    border:  solid 2px black;
+    margin: 5px auto 0 auto;
+}
